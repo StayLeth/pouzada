@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.TOPO {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    position: fixed;
+    width: 2000px;
+    z-index: 1;
+}
+
+.topo1 {
+    font-size: large;
+    padding-left: 200px;
+    a {
+        text-decoration: none;
+        color: rgb(101, 98, 98);
+    }
+    span {
+        color: rgb(59, 163, 215);
+    }
+}
+
+.topo2 {
+    padding-left: 700px;
+}
+
+.link-topo {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(101, 98, 98);
+}
+
+.conteiner1 {
+    background-image: url('assets/imgs/img-fundo.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+.conteiner-quartos {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    h1 {
+        padding-bottom: 30px;
+    }
+    p {
+        padding: 16px;
+    }
+}
+
+.imgs-quartos {
+    text-align: center;
+    img {
+        width: 350px;
+        height: 250px;
+        flex-grow: 1;
+    }
+}
+
+.conteiner-informacoes {
+    padding-top: 60px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.lista-informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.RODAPÉ {
+    background-color: rgb(26, 181, 119);
+    color: white;
+    margin-top: 30px;
+}
+
+.card-info-rodape {
+    padding-bottom: 20px;
+}
+
+.cardP {
+    h3 {
+        padding-top: 30px;
+        padding-left: 200px;
+    }
+}
+
+.card1 {
+    img {
+        position: absolute;
+        left: 450px;
+        top: 2690px;
+    }
+    p {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        top: 2690px;
+        padding-left: 490px;
+    }
+}
+
+.card2 {
+    img {
+        position: absolute;
+        left: 780px;
+        top: 2690px;
+    }
+    p {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        top: 2695px;
+        padding-left: 820px;
+    }
+}
+
+.card3 {
+    img {
+        position: absolute;
+        left: 1100px;
+        top: 2690px;
+    }
+    p {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        top: 2690px;
+        padding-left: 1150px;
+    }
+}
+
+.borda-inferior {
+    border-bottom: 3px solid rgb(21, 141, 93);
+    width: 1200px;
+    margin-left: 190px;
+    padding-top: 10px;
+}
+
+.card-info-rodape2 {
+    p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
